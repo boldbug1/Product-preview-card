@@ -48,6 +48,9 @@
       width: 100%;
       height: 100vh;
       flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      display: flex;
     }
 
     main{
@@ -176,6 +179,13 @@
       display: none;
     }
 
+    @media (max-width:600px) {
+      .card{
+        transform: scale(0.8);
+      }
+      
+    }
+
     @media (min-width:1024px) {
       
       main
@@ -298,7 +308,7 @@
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/boldbug1">Boldbug</a>.
   </div>
 </body>
 </html>
